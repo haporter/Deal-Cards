@@ -12,17 +12,22 @@ import Foundation
 
 class NetworkController {
     
-    static func fetchData(at url: URL, completion: @escaping (Result <Data, Error>) -> Void) {
+    static func fetchData(at url: URL, completion: @escaping (Result <Data?, NetworkError>) -> Void) {
         
         URLSession.shared.dataTask(with: url) { (data, _, error) in
             if let error = error {
                 print("ERROR in \(#function) : \(error), \n---\n \(error.localizedDescription)")
-                completion(.failure(error))
+                completion(.failure(.invalidURL))
             }
-            if let data = data {
+            guard let data = data else { return completion(.failure(.noData)) }
                 print("Successfully fetched data.")
-                completion(.success(data))
-            }
+            completion(.success(data))
+            
         }.resume()
     }
+}
+
+enum NetworkError: LocalizedError {
+    case invalidURL
+    case noData
 }
