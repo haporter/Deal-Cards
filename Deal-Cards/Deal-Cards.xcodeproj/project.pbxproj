@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB3A546723A44319000BD655 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3A546623A44319000BD655 /* NetworkController.swift */; };
 		B87FC4AD23A43E9D00154D97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87FC4AC23A43E9D00154D97 /* AppDelegate.swift */; };
 		B87FC4AF23A43E9D00154D97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87FC4AE23A43E9D00154D97 /* SceneDelegate.swift */; };
 		B87FC4B123A43E9D00154D97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87FC4B023A43E9D00154D97 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB3A546623A44319000BD655 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 		B87FC4A923A43E9D00154D97 /* Deal-Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Deal-Cards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B87FC4AC23A43E9D00154D97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B87FC4AE23A43E9D00154D97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB3A546523A442CB000BD655 /* Network Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB3A546623A44319000BD655 /* NetworkController.swift */,
+			);
+			path = "Network Controllers";
+			sourceTree = "<group>";
+		};
 		B87FC4A023A43E9D00154D97 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		B87FC4AB23A43E9D00154D97 /* Deal-Cards */ = {
 			isa = PBXGroup;
 			children = (
+				AB3A546523A442CB000BD655 /* Network Controllers */,
 				B87FC4AC23A43E9D00154D97 /* AppDelegate.swift */,
 				B87FC4AE23A43E9D00154D97 /* SceneDelegate.swift */,
 				B87FC4B023A43E9D00154D97 /* ViewController.swift */,
@@ -138,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB3A546723A44319000BD655 /* NetworkController.swift in Sources */,
 				B87FC4B123A43E9D00154D97 /* ViewController.swift in Sources */,
 				B87FC4AD23A43E9D00154D97 /* AppDelegate.swift in Sources */,
 				B87FC4AF23A43E9D00154D97 /* SceneDelegate.swift in Sources */,
