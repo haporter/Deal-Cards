@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27C3612C23A4430A004502FB /* CardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C3612B23A4430A004502FB /* CardController.swift */; };
 		B87FC4AD23A43E9D00154D97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87FC4AC23A43E9D00154D97 /* AppDelegate.swift */; };
 		B87FC4AF23A43E9D00154D97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87FC4AE23A43E9D00154D97 /* SceneDelegate.swift */; };
 		B87FC4B123A43E9D00154D97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87FC4B023A43E9D00154D97 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27C3612B23A4430A004502FB /* CardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardController.swift; sourceTree = "<group>"; };
 		B87FC4A923A43E9D00154D97 /* Deal-Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Deal-Cards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B87FC4AC23A43E9D00154D97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B87FC4AE23A43E9D00154D97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				B87FC4B523A43E9F00154D97 /* Assets.xcassets */,
 				B87FC4B723A43E9F00154D97 /* LaunchScreen.storyboard */,
 				B87FC4BA23A43E9F00154D97 /* Info.plist */,
+				27C3612B23A4430A004502FB /* CardController.swift */,
 			);
 			path = "Deal-Cards";
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B87FC4B123A43E9D00154D97 /* ViewController.swift in Sources */,
+				27C3612C23A4430A004502FB /* CardController.swift in Sources */,
 				B87FC4AD23A43E9D00154D97 /* AppDelegate.swift in Sources */,
 				B87FC4AF23A43E9D00154D97 /* SceneDelegate.swift in Sources */,
 			);
